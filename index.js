@@ -15,5 +15,6 @@ const server = http.createServer((req,resp) =>{
     resp.writeHead(200,{'Content-type':'application\json'});
     // resp.write(JSON.stringify({name:'washim amjad',email:'ninza4us@gmail.com'}));//previous
     resp.write(JSON.stringify(data));
+    resp.write(JSON.stringify(data));
     resp.end();
 }).listen(4500);
